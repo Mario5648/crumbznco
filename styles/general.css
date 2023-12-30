@@ -1,40 +1,6 @@
-.half-section
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-height:max-content;
 
-}
 
-.right-box-text
-{
 
-    max-width: 600px;
-    min-width: 500px;
-    display: flex;
-    flex-direction: column;
-
-    justify-content:center;
-    align-items: center;
-
-}
-
-.left-box
-{
-    min-width: 500px;
-    display: flex;
-    justify-content:center;
-
-    align-items: center;
-
-}
-
-.cookie-image{
-
-    width: 400px;
-}
 
 .title-text
 {
@@ -132,12 +98,6 @@
     transform: translate(-50%, -50%);
   }
 
-.hero-section
-{
-    background-image: url("../images/sprinkles.jpg");
-    background-size:contain;
-    background-position: center;
-}
 
 #calendar {
     max-width: 650px;
@@ -152,4 +112,105 @@
     align-items: flex-start;
 
     height: 300px;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .half-section
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-height:max-content;
+
+    }
+
+    .right-box-text
+    {
+
+        max-width: 600px;
+        min-width: 500px;
+        display: flex;
+        flex-direction: column;
+
+        justify-content:center;
+        align-items: center;
+
+    }
+
+    .left-box
+    {
+        min-width: 500px;
+        display: flex;
+        justify-content:center;
+
+        align-items: center;
+
+    }
+    .about-us-img
+    {
+      width:400px;
+    }
+    .cookie-image{
+
+        width: 400px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 12px;
+      }
+
+      .half-section
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-height:max-content;
+            max-width: min-content;
+
+        }
+
+        .right-box-text
+        {
+
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content:center;
+            align-items: center;
+
+            border-style: dotted;
+
+            width: 500px;
+
+
+        }
+
+        .left-box
+        {
+            display: flex;
+            justify-content:center;
+
+            align-items: center;
+
+            width: 500px;
+
+        }
+
+      .about-us-img
+      {
+        width:300px;
+      }
+      .cookie-image{
+
+        width: 300px;
+    }
   }
