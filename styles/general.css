@@ -1,3 +1,19 @@
+.logo-img-nav
+{
+  width: 100px;
+}
+
+.logo-nav-img-container
+{
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
 .hero-title-text
 {
   font-weight: 800;
@@ -28,6 +44,7 @@
     height: 50px;
 
     font-size: 16px;
+    background-color: #0c0c0c;
 
 }
 
@@ -58,7 +75,7 @@
 
 .what-we-do-section
 {
-    background-color: black;
+    background-color: #0c0c0c;
     color:white;
     
 }
@@ -113,7 +130,7 @@
     justify-content: center;
     align-items: flex-start;
 
-    height: 300px;
+    height: 200px;
   }
 
 
@@ -192,7 +209,7 @@
       .hero-title-text
       {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 35px;
       }
 
       .hero-half-section
