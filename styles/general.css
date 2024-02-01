@@ -13,7 +13,10 @@
   padding-bottom: 20px;
 }
 
-
+.section-text
+{
+  font-size: 16px;
+}
 .hero-title-text
 {
   font-weight: 800;
@@ -57,7 +60,6 @@
 
     max-height: max-content;
 
-
 }
 
 .full-section-container
@@ -70,13 +72,25 @@
 
     flex-wrap: wrap;
 
+    padding-top: 50px;
 
+    padding-bottom: 50px;
+
+
+}
+
+.calendar-section
+{
+  padding-top: 200px;
+
+  padding-bottom: 200px;
 }
 
 .what-we-do-section
 {
     background-color: #0c0c0c;
     color:white;
+    
     
 }
 
@@ -131,6 +145,11 @@
     align-items: flex-start;
 
     height: 200px;
+
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+
   }
 
 
@@ -146,6 +165,18 @@
     
   }
 
+  .developedByText
+  {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:visited { text-decoration: none; color:#fff; }
+  a:hover { text-decoration: none; color:#fff; }
+  a:focus { text-decoration: none; color:#fff; }
+  a:hover, a:active { text-decoration: none; color:#fff }
+
   @media only screen and (min-width: 600px) {
   
     .hero-half-section
@@ -155,6 +186,7 @@
       align-items: center;
       flex-wrap: wrap-reverse;
       max-height:max-content;
+      
     }
 
     .half-section
@@ -164,6 +196,11 @@
         align-items: center;
         flex-wrap: wrap;
         max-height:max-content;
+
+        padding-top: 100px;
+
+        padding-bottom: 100px;
+    
 
     }
 
@@ -198,6 +235,8 @@
         width: 400px;
     }
   }
+
+  
   
   @media only screen and (max-width: 600px) {
     nav a {
