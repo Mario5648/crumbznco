@@ -15,7 +15,7 @@
 
 .section-text
 {
-  font-size: 16px;
+  font-size: 17px;
 }
 .hero-title-text
 {
@@ -26,14 +26,17 @@
 .title-text
 {
     font-weight: 800;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .normal-text
 {
     font-size: 22px;
 }
-
+.name-text
+{
+  font-size: 25px;
+}
 .sub-text
 {
     font-size: 20px;
@@ -71,19 +74,10 @@
     max-width: 1000px;
 
     flex-wrap: wrap;
-
-    padding-top: 50px;
-
-    padding-bottom: 50px;
-
-
 }
 
 .calendar-section
 {
-  padding-top: 200px;
-
-  padding-bottom: 200px;
 }
 
 .what-we-do-section
@@ -91,7 +85,26 @@
     background-color: #0c0c0c;
     color:white;
     
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-section
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.calendar-section
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-section-container
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .polaroid {
@@ -146,9 +159,6 @@
 
     height: 200px;
 
-    padding-top: 100px;
-
-    padding-bottom: 100px;
 
   }
 
@@ -197,11 +207,7 @@
         flex-wrap: wrap;
         max-height:max-content;
 
-        padding-top: 100px;
-
-        padding-bottom: 100px;
-    
-
+  
     }
 
     .right-box-text
