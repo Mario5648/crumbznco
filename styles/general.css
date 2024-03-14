@@ -5,12 +5,29 @@
 
 .logo-nav-img-container
 {
-  background-color: #0c0c0c;
+  background-color: #9c704a;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.ordernow-button
+{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+
+  background-color: #a46866;
+  color: #e8ece5;
+  border-style: none;
+  border-radius: 30px;
+}
+
+.ordernow-button:hover {
+  background-color: #c19d77;
+  color:#e8ece5;
 }
 
 .section-text
@@ -50,7 +67,7 @@
     height: 50px;
 
     font-size: 16px;
-    background-color: #0c0c0c;
+    background-color: #9c704a;
 
 }
 
@@ -76,23 +93,67 @@
     flex-wrap: wrap;
 }
 
+.full-section-container-offer
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.offer-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 250px;
+  height: 100px;
+  padding:30px;
+
+  background-color: #c19d77;
+  color: #e8ece5;  
+
+  border-radius: 30px;
+  
+  margin-bottom: 20px;
+
+}
+
 .calendar-section
 {
 }
 
 .what-we-do-section
 {
-    background-color: #0c0c0c;
-    color:white;
+    background-color: #9c704a;
+    color:#e8ece5;
     
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.what-we-offer-section
+{
+  background-color: #e8ece5;
+  color:#31272b;
+  
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .about-section
 {
   padding-top: 100px;
   padding-bottom: 100px;
+
+  background-color: #9c704a;
+  color:#e8ece5;
 }
 
 .calendar-section
@@ -105,17 +166,20 @@
 {
   padding-top: 100px;
   padding-bottom: 100px;
+
 }
 
 .polaroid {
     position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid #ccc;
+    width: 300px;
+    height: 300px;
+    background-color: #e8ece5;
+    border: 1px solid #e8ece5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     overflow: hidden;
+
+    border-radius: 30px;
   }
 
   .polaroid img {
@@ -123,6 +187,7 @@
     width: 94%;
     height: 75%;
     object-fit: cover;
+    border-radius: 30px;
   }
 
   .polaroid::before {
@@ -159,7 +224,6 @@
 
     height: 200px;
 
-
   }
 
 
@@ -180,6 +244,12 @@
     font-size: 12px;
     color: #fff;
     text-decoration: none;
+  }
+
+  .sub-title
+  {
+    font-size: 25px;
+    font-weight: 800;
   }
 
   a:visited { text-decoration: none; color:#fff; }
@@ -235,6 +305,7 @@
     .about-us-img
     {
       width:300px;
+      border-radius: 30px;
     }
     .cookie-image{
 

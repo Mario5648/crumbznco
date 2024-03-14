@@ -20,9 +20,9 @@
   <style>
     body {
       margin: 0 0 0 0;
-      color: #000;
       font-family: 'Poppins', sans-serif;
-
+      background-color: #e8ece5;
+      color:#31272b;
     }
 
     nav {
@@ -30,7 +30,6 @@
       color: #fff;
       text-align: center;
       padding: 10px 0;
-      position: sticky;
       top: 0;
       z-index: 100;
     }
@@ -49,8 +48,8 @@
     }
 
     footer {
-      background-color: #000;
-      color: #fff;
+      background-color: #9c704a;
+      color:#31272b;
       text-align: center;
       padding: 20px 0;
     }
@@ -58,7 +57,7 @@
 </head>
 <body>
 
-  <div class="logo-nav-img-container"><img src="./images/cnc.jpg" class="logo-img-nav"></div>
+  <div class="logo-nav-img-container"><img src="./images/cnc.png" class="logo-img-nav"></div>
   <nav class="navigation-bar">
     <a href="#about">About Us</a>
     <a href="#what-we-do">What We Do</a>
@@ -71,13 +70,67 @@
             <p class="hero-title-text">Crumbz N Co.</p>
             <p class="normal-text">Love in a bite!</p>
             <p class="sub-text">Since 2023</p>
+            <button class="ordernow-button" onclick="openOrderPage()">Order Now</button><br><br>
         </div>
         <div class="left-box">
-            <img src="./images/cookieGif.gif" class="cookie-image">
+            <img src="./images/cookieGifNew.gif" class="cookie-image">
         </div>
     </div>
   </section>
 
+
+  <section id="what-we-do" class="what-we-do-section">
+    <p class="title-text">What We Do</p>
+
+    <div class="full-section">
+        <div class="full-section-container">
+            <p class="section-text">Indulge in our exquisite range of desserts, including mouthwatering cupcakes, decadent cookies baked to perfection, rich and fudgy brownies that melt in your mouth, and delightful chocolate-covered sweets that are a true celebration of flavor.</p>
+        </div>
+        <div class="full-section-container">
+            <div class="polaroid">
+                <img src="./images/s_img_1.png" alt="Photo 1"><br>
+                <p style="color:#31272b;font-family: 'Gochi Hand', cursive;font-size: 16px;">Events</p>
+            </div>
+            <div class="polaroid">
+                <img src="./images/s_img_2.png" alt="Photo 1">
+                <p style="color:#31272b;font-family: 'Gochi Hand', cursive;font-size: 16px;">Unique Desserts</p>
+            </div>
+            <div class="polaroid">
+                <img src="./images/s_img_3.png" alt="Photo 1">
+                <p style="color:#31272b;font-family: 'Gochi Hand', cursive;font-size: 16px;">Familiar Favorites</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="what-we-offer" class="what-we-offer-section">
+    <p class="title-text">Our Treats!</p>
+    <p class="section-text">Embark on a flavor-filled adventure with our wide selection of baked delights! From the comforting sweet allure of our delectable pastries and cookies, every item is crafted with love, using the finest ingredients. Whether you're planning a grand celebration, in need of exquisite catering services, or simply treating yourself to a moment of sweet serenity, we've got you covered. Order from us today and let every bite celebrate the art of baking, tailored just for you or your special occasion!</p><br><br>
+    <button class="ordernow-button" onclick="openOrderPage()">Order Now</button><br><br>
+    <div class="full-section">
+        <div class="full-section-container-offer">
+          <div class="offer-box">
+            <img src="./images/icons/cookie_icon.png" style="width:40px;"></img>
+            <p class="sub-title">Cookies</p>
+          </div>
+
+          <div class="offer-box">      
+            <img src="./images/icons/brownies_icon.png" style="width:40px;"></img>      
+            <p class="sub-title">Brownies</p>
+          </div>
+
+          <div class="offer-box">
+            <img src="./images/icons/cupcake_icon.png" style="width:40px;"></img>      
+            <p class="sub-title">Cupcakes</p>
+          </div>
+
+          <div class="offer-box">
+            <img src="./images/icons/cake_icon.png" style="width:40px;"></img>      
+            <p class="sub-title">Custom Order</p>
+          </div>
+        </div>
+    </div>
+  </section>
 
   <section id="about" class="about-section">
     <p class="title-text">About Us</p>
@@ -88,30 +141,6 @@
         </div>
         <div class="left-box">
             <img src="./images/bio.JPG" class="about-us-img">
-        </div>
-    </div>
-  </section>
-
-  <section id="what-we-do" class="what-we-do-section">
-    <p class="title-text">What We Do</p>
-
-    <div class="full-section">
-        <div class="full-section-container">
-            <p class="section-text">Indulge in our exquisite range of desserts, including mouthwatering cupcakes with the perfect crumb, decadent cookies baked to perfection, rich and fudgy brownies that melt in your mouth, and delightful chocolate-covered sweets that are a true celebration of flavor.</p>
-        </div>
-        <div class="full-section-container">
-            <div class="polaroid">
-                <img src="./images/s_img_1.png" alt="Photo 1"><br>
-                <p style="color:black;font-family: 'Gochi Hand', cursive;font-size: 16px;">Events</p>
-            </div>
-            <div class="polaroid">
-                <img src="./images/s_img_2.png" alt="Photo 1">
-                <p style="color:black;font-family: 'Gochi Hand', cursive;font-size: 16px;">Unique Desserts</p>
-            </div>
-            <div class="polaroid">
-                <img src="./images/s_img_3.png" alt="Photo 1">
-                <p style="color:black;font-family: 'Gochi Hand', cursive;font-size: 16px;">Familiar Favorites</p>
-            </div>
         </div>
     </div>
   </section>
@@ -142,6 +171,10 @@
   </footer>
 
   <script>
+    function openOrderPage()
+    {
+      window.open('https://bakesy.shop/b/crumbz-n-co','_self');
+    }
     $(document).ready(function() {
       // Events data
       var eventsData = [
